@@ -1,8 +1,16 @@
 {
   "name": "grunt-contrib-scss",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Compiles SCSS to CSS using node-sass",
   "devDependencies": {
     "node-sass": "~0.7.0",
     "async": "~0.2.9"
+  },
+  "dependencies": {
+    "node-sass": "~0.7.0",
+    "async": "~0.2.9"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
   }
 }
